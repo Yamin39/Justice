@@ -63,10 +63,14 @@
   </head>
   <body>
     <header class="w-10/12 container mx-auto">
-      <nav class="navbar bg-base-100 md:my-6">
+      <nav class="navbar bg-base-100 my-3 md:my-6 px-0">
         <div class="navbar-start">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost lg:hidden pl-0"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 w-8"
@@ -143,7 +147,7 @@
       </nav>
 
       <!-- banner -->
-      <section class="mt-5">
+      <section class="mt-12">
         <div class="hero rounded-lg relative" id="banner">
           <div class="text-center text-white">
             <div class="md:max-w-2xl py-28 px-4">
@@ -382,6 +386,68 @@
               <a href="#slide2" class="text-white p-8 text-xl">❮</a>
               <a href="#slide1" class="text-white p-8 text-xl">❯</a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section>
+        <div class="md:max-w-2xl mx-auto px-12 md:px-0 text-center">
+          <h1
+            class="text-title-primary leading-none text-[2.5rem] font-garamond"
+          >
+            Frequently Asked Any Questions
+          </h1>
+          <p class="text-font-primary mt-6 mb-16">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="flex flex-col-reverse lg:flex-row items-center gap-14">
+          <div class="lg:w-1/2 space-y-7">
+            <div class="collapse collapse-plus rounded-lg bg-bg-secondary p-6">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-2xl font-garamond">
+                1. Are application fee waivers available?
+              </div>
+              <div class="collapse-content">
+                <p class="text-font-primary">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus rounded-lg bg-bg-secondary p-6">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-2xl font-garamond">
+                1. Are application fee waivers available?
+              </div>
+              <div class="collapse-content">
+                <p class="text-font-primary">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus rounded-lg bg-bg-secondary p-6">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-2xl font-garamond">
+                1. Are application fee waivers available?
+              </div>
+              <div class="collapse-content">
+                <p class="text-font-primary">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <img src="./images/faq.png" alt="" />
           </div>
         </div>
       </section>
